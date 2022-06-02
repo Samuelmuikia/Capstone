@@ -1,4 +1,5 @@
 export default {
-  header: "My Courses Page",
-  view: "Courses"
+  header: "List of Courses",
+  view: "Courses",
+  Courses: []
 };

@@ -5,12 +5,11 @@ export default () => html`
     <form id="login" method="POST" action="">
       <h2>Get a Course</h2>
       <div>
-        <label for="subject">Crust:</label>
+        <label for="subject">I am:</label>
         <select id="subject" name="subject">
           <option value="">Select a Subject</option>
           <option value="student">Student</option>
           <option value="teacher">Teacher</option>
-
         </select>
       </div>
       <div>
@@ -82,7 +81,7 @@ export default () => html`
         id="customer"
         value="Anonymous Customer"
       />
-      <input type="submit" name="submit" value="Submit Pizza" />
+      <input type="submit" name="submit" value="Submit courses" />
     </form>
   </section>
 `;
