@@ -3,8 +3,6 @@ import * as store from "./store";
 import axios from "axios";
 import Navigo from "navigo";
 import { capitalize } from "lodash";
-import dotenv from "dotenv";
-dotenv.config();
 
 const router = new Navigo("/");
 
@@ -21,14 +19,14 @@ function render(state = store.Home) {
 }
 
 function afterRender(state) {
-  // Add to every view
-  // add event listeners to Nav items for navigation
-  document.querySelectorAll("nav a").forEach(navLink =>
-    navLink.addEventListener("click", event => {
-      event.preventDefault();
-      render(store[event.target.title]);
-    })
-  );
+  // // Add to every view
+  // // add event listeners to Nav items for navigation
+  // document.querySelectorAll("nav a").forEach(navLink =>
+  //   navLink.addEventListener("click", event => {
+  //     event.preventDefault();
+  //     render(store[event.target.title]);
+  //   })
+  // );
   // add menu toggle to bars icon in nav bar
   document
     .querySelector(".fa-bars")
@@ -56,7 +54,7 @@ function afterRender(state) {
   //     };
 
   //      axios
-  //         .post(`${COURSES_API_URL}`, requestData)
+  //         .post(process.env.`${COURSES_API_URL}`, requestData)
   //         .then(response => {
   //           console.log(response.data);
   //           store.Course.Courses.push(response.data);

@@ -10,11 +10,11 @@ export default () => html`
         <th>Seo</th>
         <th>Customer</th>
       </tr>
-      ${state.courses
+      ${state.course
         .map(course => {
           return `<tr><td>${course.uxui}</td><td>${course.blockchain}</td><td>${
             course.coding
-          }</td><td>${courses.seo.join(" & ")}</td><td>${
+          }</td><td>${course.seo.join(" & ")}</td><td>${
             course.customer
           }</td></tr>`;
         })
