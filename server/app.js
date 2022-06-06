@@ -2,7 +2,7 @@
 const express = require("express");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
-const courses = require("./routers/courses");
+const courses = require("./router/courses");
 // Initialize the Express application
 const app = express();
 
@@ -54,7 +54,7 @@ app.post("/echo", (request, response) => {
   response.json({ "request.body": request.body });
 });
 
-app.use("/course", courses);
+app.use("/courses", courses);
 
 // Tell the Express app to start listening
 // Let the humans know I am running and listening on 4040
