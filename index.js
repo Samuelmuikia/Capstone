@@ -94,16 +94,17 @@ router.hooks({
           done();
         });
     } else if (view === "Courses") {
-      axios
-        .get(`${process.env.COURSES_API_URL}`)
-        .then(response => {
-          store.Course.Courses = response.data;
-          done();
-        })
-        .catch(error => {
-          console.log("It puked", error);
-          done();
-        });
+      // axios
+      //   .get(`${process.env.COURSES_API_URL}`)
+      //   .then(response => {
+      //     store.Course.Courses = response.data;
+      //     done();
+      //   })
+      //   .catch(error => {
+      //     console.log("It puked", error);
+      //     done();
+      //   });
+      done();
     } else {
       done();
     }

@@ -10,7 +10,7 @@ export default state => html`
         <th>Seo</th>
         <th>Customer</th>
       </tr>
-      ${state.course
+      ${state.courses
         .map(course => {
           return `<tr><td>${course.uxui}</td><td>${course.blockchain}</td><td>${
             course.coding
