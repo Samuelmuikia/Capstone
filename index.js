@@ -122,3 +122,19 @@ router
     }
   })
   .resolve();
+
+  const axios = require("axios");
+
+  const options = {
+    method: 'GET',
+    url: 'https://ipix-lms.p.rapidapi.comhttps//www.ipixtechnologies.com/learning-management-system.html',
+    headers: {
+      'X-RapidAPI-Key': 'X-RapidAPI',
+      'X-RapidAPI-Host': 'ipix-lms.p.rapidapi.com'
+    }
+  };
+  axios.request(options).then(function (response) {
+    console.log(response.data);
+  }).catch(function (error) {
+    console.error(error);
+  });
