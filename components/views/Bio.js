@@ -3,6 +3,26 @@ import html from "html-literal";
 export default () => html`
   <section id="bio">
     <h2>Elite Skills</h2>
+    <section class="about">
+      <div class="image">
+        <img src="images/about-img.png" alt="" />
+      </div>
+      <section class="heading">
+        <h3>about us</h3>
+        <p><a href="home.html">home >></a> about</p>
+      </section>
+
+      <div class="content">
+        <h3>I will stay with you until you pass your exam.</h3>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Id ducimus
+          at maiores repellat aut debitis aliquam esse, quisquam nobis laborum
+          velit voluptate excepturi obcaecati dignissimos omnis. Fugiat hic quod
+          nobis?
+        </p>
+        <a href="#" class="btn">learn more</a>
+      </div>
+    </section>
 
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu sagittis
