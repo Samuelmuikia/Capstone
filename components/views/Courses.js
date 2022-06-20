@@ -3,13 +3,13 @@ import html from "html-literal";
 export default state => html`
   <section id="course">
     <table id="courses">
-      <tr>
+      <!-- <tr>
         <th>UiUX</th>
         <th>Blockchain</th>
         <th>Coding</th>
         <th>Seo</th>
         <th>Customer</th>
-      </tr>
+      </tr> -->
 
       ${state.courses
         .map(course => {
@@ -118,8 +118,8 @@ export default state => html`
           <a href="#" class="btn">read more</a>
         </div>
       </section>
-      <a href="#">courses +</a>
-      <ul>
+      <!-- <a href="#">courses +</a> -->
+      <!-- <ul>
         <li><a href="course-1.html">course 01</a></li>
         <li><a href="course-2.html">course 02</a></li>
         <li><a href="course-3.html">course 03</a></li>
@@ -132,6 +132,8 @@ export default state => html`
                 </ul>
             </li>
             <li><a href="contact.html">contact</a></li>
-        </ul>
+        </ul> -->
+      <!-- </li> -->
+    </li>
   </section>
 `;

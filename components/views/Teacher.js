@@ -83,5 +83,178 @@ export default state => html`
       />
       <input type="submit" name="submit" value="Submit courses" />
     </form>
+    <body>
+      <!-- header section starts  -->
+
+      <!-- <header class="header">
+        <a href="home.html" class="logo">
+          <i class="fas fa"></i> Elite Skill
+        </a>
+
+        <div id="menu-btn" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+          <ul>
+            <li><a href="home.html">home</a></li>
+            <li><a href="about.html">about</a></li>
+            <li>
+              <a href="#">courses +</a>
+              <ul>
+                <li><a href="course-1.html">course 01</a></li>
+                <li><a href="course-2.html">course 02</a></li>
+                <li><a href="course-3.html">course 03</a></li>
+              </ul>
+            </li>
+            <li>
+              <a href="#">pages +</a>
+              <ul>
+                <li><a href="teachers.html">teachers</a></li>
+                <li><a href="blog.html">blogs</a></li>
+              </ul>
+            </li>
+            <li><a href="contact.html">contact</a></li>
+          </ul>
+        </nav>
+      </header> -->
+
+      <!-- header section ends -->
+
+      <section class="heading">
+        <h3>our teachers</h3>
+        <p><a href="home.html">home >></a> teachers</p>
+      </section>
+
+      <!-- teachers section starts  -->
+
+      <section class="teachers">
+        <div class="box">
+          <div class="image">
+            <img src="images/teacher-1.png" alt="" />
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>john deo</h3>
+            <span>web designer</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/teacher-2.png" alt="" />
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>john deo</h3>
+            <span>web designer</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/teacher-3.png" alt="" />
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>john deo</h3>
+            <span>web designer</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/teacher-4.png" alt="" />
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>john deo</h3>
+            <span>web designer</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/teacher-5.png" alt="" />
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>john deo</h3>
+            <span>web designer</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/teacher-6.png" alt="" />
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>john deo</h3>
+            <span>web designer</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/teacher-7.png" alt="" />
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>john deo</h3>
+            <span>web designer</span>
+          </div>
+        </div>
+
+        <div class="box">
+          <div class="image">
+            <img src="images/teacher-8.png" alt="" />
+            <div class="share">
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+          </div>
+          <div class="content">
+            <h3>john deo</h3>
+            <span>web designer</span>
+          </div>
+        </div>
+      </section>
+    </body>
   </section>
 `;

@@ -1,11 +1,11 @@
 import html from "html-literal";
+import bioImage from "../../images/about-img.png";
 
 export default () => html`
-  <section id="bio">
-    <h2>Elite Skills</h2>
+  <section id="bio"></section>
     <section class="about">
       <div class="image">
-        <img src="images/about-img.png" alt="" />
+        <img src="${bioImage}" class="bioImage" alt="" />
       </div>
       <section class="heading">
         <h3>about us</h3>

@@ -158,7 +158,7 @@ router.hooks({
 
     //Verify Certificate
 
-    if (view === "Home") {
+    if (view === "Teachers") {
       const choice = {
         method: "GET",
         url:
