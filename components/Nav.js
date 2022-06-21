@@ -3,7 +3,6 @@ import logo from "../images/Elite-Skills-logo.png";
 
 export default links => html`
   <nav>
-    <!-- <img src="${logo}" alt="" /> -->
     <i class="fas fa-bars"></i>
     <ul class="hidden--mobile nav-links">
       <img src="${logo}" class="logoImage" alt="" />

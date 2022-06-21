@@ -1,4 +1,12 @@
 import html from "html-literal";
+import teacherOneImage from "../../images/teacher-1.png";
+import teacherTwoImage from "../../images/teacher-2.png";
+import teacherThreeImage from "../../images/teacher-3.png";
+import teacherFourImage from "../../images/teacher-4.png";
+import teacherFiveImage from "../../images/teacher-5.png";
+import teacherSixImage from "../../images/teacher-6.png";
+import teacherSevenImage from "../../images/teacher-6.png";
+import teacherEightImage from "../../images/teacher-6.png";
 
 export default state => html`
   <section id="login">
@@ -129,7 +137,7 @@ export default state => html`
       <section class="teachers">
         <div class="box">
           <div class="image">
-            <img src="images/teacher-1.png" alt="" />
+            <img src="${teacherOneImage}" alt="" />
             <div class="share">
               <a href="#" class="fab fa-facebook-f"></a>
               <a href="#" class="fab fa-twitter"></a>
@@ -145,7 +153,7 @@ export default state => html`
 
         <div class="box">
           <div class="image">
-            <img src="images/teacher-2.png" alt="" />
+            <img src="${teacherTwoImage}" alt="" />
             <div class="share">
               <a href="#" class="fab fa-facebook-f"></a>
               <a href="#" class="fab fa-twitter"></a>
@@ -161,7 +169,7 @@ export default state => html`
 
         <div class="box">
           <div class="image">
-            <img src="images/teacher-3.png" alt="" />
+            <img src="${teacherThreeImage}" alt="" />
             <div class="share">
               <a href="#" class="fab fa-facebook-f"></a>
               <a href="#" class="fab fa-twitter"></a>
@@ -177,7 +185,7 @@ export default state => html`
 
         <div class="box">
           <div class="image">
-            <img src="images/teacher-4.png" alt="" />
+            <img src="${teacherFourImage}" alt="" />
             <div class="share">
               <a href="#" class="fab fa-facebook-f"></a>
               <a href="#" class="fab fa-twitter"></a>
@@ -193,7 +201,7 @@ export default state => html`
 
         <div class="box">
           <div class="image">
-            <img src="images/teacher-5.png" alt="" />
+            <img src="${teacherFiveImage}" alt="" />
             <div class="share">
               <a href="#" class="fab fa-facebook-f"></a>
               <a href="#" class="fab fa-twitter"></a>
@@ -209,7 +217,7 @@ export default state => html`
 
         <div class="box">
           <div class="image">
-            <img src="images/teacher-6.png" alt="" />
+            <img src="${teacherSixImage}" alt="" />
             <div class="share">
               <a href="#" class="fab fa-facebook-f"></a>
               <a href="#" class="fab fa-twitter"></a>
@@ -225,7 +233,7 @@ export default state => html`
 
         <div class="box">
           <div class="image">
-            <img src="images/teacher-7.png" alt="" />
+            <img src="${teacherSevenImage}" alt="" />
             <div class="share">
               <a href="#" class="fab fa-facebook-f"></a>
               <a href="#" class="fab fa-twitter"></a>
@@ -241,7 +249,7 @@ export default state => html`
 
         <div class="box">
           <div class="image">
-            <img src="images/teacher-8.png" alt="" />
+            <img src="${teacherEightImage}" alt="" />
             <div class="share">
               <a href="#" class="fab fa-facebook-f"></a>
               <a href="#" class="fab fa-twitter"></a>
