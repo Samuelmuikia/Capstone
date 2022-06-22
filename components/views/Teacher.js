@@ -10,37 +10,61 @@ import teacherEightImage from "../../images/teacher-6.png";
 
 export default state => html`
   <section id="Teacher">
-    <form id="Teacher" method="POST" action="">
+    <form id="addCourse" method="POST" action="">
       <h2>Add a Course</h2>
-      <div>
+      <!-- <div>
         <label for="subject">I am:</label>
         <select id="subject" name="subject">
           <option value="">Select a Subject</option>
-          <!-- <option value="student">Student</option> -->
+           <option value="student">Student</option>
           <option value="teacher">Teacher</option>
         </select>
-      </div>
+      </div> -->
       <div>
-        <label for="name">Name:</label>
+        <label for="customer">Name:</label>
         <input
           type="text"
-          name="name"
-          id="name"
+          name="customer"
+          id="customer"
           placeholder="Enter YourName"
           required
         />
       </div>
       <div>
-        <label for="Teachername">Sauce:</label>
+        <label for="uiux">Teacher:</label>
         <input
           type="text"
-          name="Teacher"
-          id="Teacher"
+          name="uiux"
+          id="uiux"
           placeholder="Enter Teacher"
           required
         />
       </div>
       <div>
+        <label for="blockchain">Teacher:</label>
+        <input
+          type="text"
+          name="blockchain"
+          id="blockchain"
+          placeholder="Enter Teacher"
+          required
+        />
+      </div>
+      <div>
+        <label for="coding">Teacher:</label>
+        <input
+          type="text"
+          name="coding"
+          id="coding"
+          placeholder="Enter Teacher"
+          required
+        />
+      </div>
+      <div>
+        <label for="seo">Teacher:</label>
+        <input type="text" name="seo" id="seo" placeholder="Enter Teacher" />
+      </div>
+      <!-- <div>
         <label for="Teachers">Teachers:</label>
         <input
           type="checkbox"
@@ -57,7 +81,7 @@ export default state => html`
           name="subject"
           value="ui"
         />
-        <label for="cor2">ui</label>
+        <label for="cor2">uiux</label>
         <input
           type="checkbox"
           id="id_of_checkbox3"
@@ -81,14 +105,14 @@ export default state => html`
           name="subject"
           value="seo"
         />
-        <label for="cor5">red pepper</label>
-      </div>
-      <input
+        <label for="cor5">web design</label>
+      </div> -->
+      <!-- <input
         type="hidden"
         name="customer"
         id="customer"
         value="Anonymous Customer"
-      />
+      /> -->
       <input type="submit" name="submit" value="Submit Teachers" />
     </form>
     <body>

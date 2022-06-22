@@ -1,5 +1,5 @@
 const { Router } = require("express");
-const Course = require("../models/Courses");
+const Course = require("../models/course");
 
 const router = Router();
 
@@ -44,10 +44,10 @@ router.put("/:id", (request, response) => {
     {
       $set: {
         // Take note that the customer is not included, so it can't
-        crust: body.uiux,
-        cheese: body.blockchain,
-        sauce: body.seo,
-        toppings: body.coding
+        uiux: body.uiux,
+        blockchain: body.blockchain,
+        seo: body.seo,
+        coding: body.coding
       }
     },
     {

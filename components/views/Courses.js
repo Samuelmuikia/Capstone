@@ -12,13 +12,13 @@ import courseNineImage from "../../images/course-9.png";
 export default state => html`
   <section id="course">
     <table id="courses">
-      <!-- <tr>
+      <tr>
         <th>UiUX</th>
         <th>Blockchain</th>
         <th>Coding</th>
         <th>Seo</th>
         <th>Customer</th>
-      </tr> -->
+      </tr>
 
       ${state.courses
         .map(course => {

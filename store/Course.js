@@ -1,5 +1,4 @@
 export default {
   header: "Course",
-  view: "Course",
-  course: []
+  view: "Course"
 };

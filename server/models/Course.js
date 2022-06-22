@@ -9,7 +9,7 @@ const courseSchema = new mongoose.Schema({
   uiux: {
     type: String,
     required: true,
-    enum: ["student", "teacher"]
+    validate: /^[A-Za-z0-9 ]*$/
   },
   blockchain: {
     type: String,

@@ -22,7 +22,7 @@ export default state => html`
     <div class="content">
         <h3>your course to success</h3>
         <p> Success courses are designed to help undergraduate students make successful transitions from a previous level of education, or experience (e.g., the military), into the University, from undeclared status into a major, and/or from undergraduate studies to graduate studies or careers.</p>
-        <a href="http://localhost:1234/Courses" class="btn">get started</a>
+        <a href="http://localhost:1234/Course" class="btn">get started</a>
     </div>
 </section>
 
@@ -35,7 +35,8 @@ export default state => html`
         <h3>web design</h3>
         <p>
         Web design is what creates the overall look and feel when you’re using a website... </p>
-        <a href="#" class="btn">read more</a>
+        <a href="http://localhost:1234/Course" class="btn">read more</a>
+
       </div>
 
       <div class="box">
@@ -46,7 +47,7 @@ export default state => html`
         What Is SEO / Search Engine Optimization?
 SEO stands for “search engine optimization.” In simple terms, it means...
         </p>
-        <a href="#" class="btn">read more</a>
+        <a href="http://localhost:1234/Course" class="btn">read more</a>
       </div>
 
       <div class="box">
@@ -56,7 +57,7 @@ SEO stands for “search engine optimization.” In simple terms, it means...
         <p>
         Biology is the study of life. The word "biology" is derived from the Greek words "bios" (meaning life) and "logos" (meaning "study"). In general, biologists study the structure, function, growth, origin, evolution and distribution of living organisms.
         </p>
-        <a href="#" class="btn">read more</a>
+        <a href="http://localhost:1234/Course" class="btn">read more</a>
       </div>
       <div class="box">
       <div class="image">
@@ -65,7 +66,7 @@ SEO stands for “search engine optimization.” In simple terms, it means...
         <p>
         Dance music is music composed specifically to facilitate or accompany dancing. It can be either a whole musical piece or part of a larger musical arrangement.
         </p>
-        <a href="#" class="btn">read more</a>
+        <a href="http://localhost:1234/Course" class="btn">read more</a>
       </div>
       <!-- <ul>
                     <li><a href="course-1.html">course 01</a></li>

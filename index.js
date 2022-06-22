@@ -34,39 +34,39 @@ function afterRender(state) {
       document.querySelector("nav > ul").classList.toggle("hidden--mobile")
     );
 
-  // if (state.view === "Teacher") {
-  //   document.querySelector("form").addEventListener("submit", event => {
-  //     event.preventDefault();
-  //     const inputList = event.target.elements;
+  if (state.view === "Teacher") {
+    document.querySelector("form").addEventListener("submit", event => {
+      event.preventDefault();
+      const inputList = event.target.elements;
 
-  //     const courses = [];
-  //     for (let input of inputList.Courses) {
-  //       if (input.checked) {
-  //         courses.push(input.value);
-  //       }
-  //     }
-  //     const requestData = {
-  //       uiux: inputList.uiux.value,
-  //       blockchain: inputList.blockchain.value,
-  //       coding: inputList.coding.value,
-  //       courses: courses,
-  //       customer: "~Update with YOUR name~"
-  //     };
+      // const courses = [];
+      // for (let input of inputList.courses) {
+      //   if (input.checked) {
+      //     courses.push(input.value);
+      //   }
+      // }
+      const requestData = {
+        uiux: inputList.uiux.value,
+        blockchain: inputList.blockchain.value,
+        coding: inputList.coding.value,
+        seo: inputList.seo.value,
+        customer: inputList.customer.value
+      };
 
-  //      axios
-  //         .post(process.env.`${TEACHER_API_URL}`, requestData)
-  //         .then(response => {
-  //           console.log(response.data);
-  //           store.Course.Courses.push(response.data);
-  //           router.navigate("/Teacher");
-  //         })
-  //         .catch(error => {
-  //           console.log("It puked", error);
-  //         });
-  //     });
-  //   }
-  // }
+      axios
+        .post(`${process.env.COURSES_PLACE_API_URL}`, requestData)
+        .then(response => {
+          console.log(response.data);
+          store.Course.Courses.push(response.data);
+          router.navigate("/Courses");
+        })
+        .catch(error => {
+          console.log("It puked", error);
+        });
+    });
+  }
 }
+
 router.hooks({
   before: (done, params) => {
     let view = "Home";
@@ -158,7 +158,7 @@ router.hooks({
 
     //Verify Certificate
 
-    if (view === "Teachers") {
+    if (view === "Teacher") {
       const choice = {
         method: "GET",
         url:
@@ -225,16 +225,17 @@ router.hooks({
           done();
         });
     } else if (view === "Courses") {
-      // axios
-      //   .get(`${process.env.COURSES_API_URL}`)
-      //   .then(response => {
-      //     store.Course.Courses = response.data;
-      //     done();
-      //   })
-      //   .catch(error => {
-      //     console.log("It puked", error);
-      //     done();
-      //   });
+      axios
+        .get(`${process.env.COURSES_PLACE_API_URL}`)
+        .then(response => {
+          store.Course.Courses = response.data;
+          console.log(store.Course);
+          done();
+        })
+        .catch(error => {
+          console.log("It puked", error);
+          done();
+        });
       done();
     } else {
       done();
