@@ -1,6 +1,7 @@
 import html from "html-literal";
 
 export default state => html`
+  <div class="login"></div>
   <!-- modify this form HTML and place wherever you want your form -->
   <form action="https://formspree.io/f/mlezvkwr" method="POST">
     <label>
