@@ -2,7 +2,7 @@
 const express = require("express");
 const dotenv = require("dotenv");
 const mongoose = require("mongoose");
-const courses = require("./router/courses");
+const courses = require("./routers/courses");
 // Initialize the Express application
 const app = express();
 

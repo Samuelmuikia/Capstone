@@ -9,14 +9,14 @@ import teacherSevenImage from "../../images/teacher-6.png";
 import teacherEightImage from "../../images/teacher-6.png";
 
 export default state => html`
-  <section id="login">
-    <form id="login" method="POST" action="">
-      <h2>Get a Course</h2>
+  <section id="Teacher">
+    <form id="Teacher" method="POST" action="">
+      <h2>Add a Course</h2>
       <div>
         <label for="subject">I am:</label>
         <select id="subject" name="subject">
           <option value="">Select a Subject</option>
-          <option value="student">Student</option>
+          <!-- <option value="student">Student</option> -->
           <option value="teacher">Teacher</option>
         </select>
       </div>
@@ -31,25 +31,25 @@ export default state => html`
         />
       </div>
       <div>
-        <label for="coursename">Sauce:</label>
+        <label for="Teachername">Sauce:</label>
         <input
           type="text"
-          name="course"
-          id="course"
-          placeholder="Enter course"
+          name="Teacher"
+          id="Teacher"
+          placeholder="Enter Teacher"
           required
         />
       </div>
       <div>
-        <label for="courses">Courses:</label>
+        <label for="Teachers">Teachers:</label>
         <input
           type="checkbox"
           id="id_of_checkbox1"
           class="items1"
           name="subject"
-          value="course"
+          value="Teacher"
         />
-        <label for="cor1">courses</label>
+        <label for="cor1">Teachers</label>
         <input
           type="checkbox"
           id="id_of_checkbox2"
@@ -89,7 +89,7 @@ export default state => html`
         id="customer"
         value="Anonymous Customer"
       />
-      <input type="submit" name="submit" value="Submit courses" />
+      <input type="submit" name="submit" value="Submit Teachers" />
     </form>
     <body>
       <!-- header section starts  -->
@@ -106,11 +106,11 @@ export default state => html`
             <li><a href="home.html">home</a></li>
             <li><a href="about.html">about</a></li>
             <li>
-              <a href="#">courses +</a>
+              <a href="#">Teachers +</a>
               <ul>
-                <li><a href="course-1.html">course 01</a></li>
-                <li><a href="course-2.html">course 02</a></li>
-                <li><a href="course-3.html">course 03</a></li>
+                <li><a href="Teacher-1.html">Teacher 01</a></li>
+                <li><a href="Teacher-2.html">Teacher 02</a></li>
+                <li><a href="Teacher-3.html">Teacher 03</a></li>
               </ul>
             </li>
             <li>

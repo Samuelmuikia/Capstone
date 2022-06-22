@@ -34,7 +34,7 @@ function afterRender(state) {
       document.querySelector("nav > ul").classList.toggle("hidden--mobile")
     );
 
-  // if (state.view === "Login") {
+  // if (state.view === "Teacher") {
   //   document.querySelector("form").addEventListener("submit", event => {
   //     event.preventDefault();
   //     const inputList = event.target.elements;
@@ -54,11 +54,11 @@ function afterRender(state) {
   //     };
 
   //      axios
-  //         .post(process.env.`${COURSES_API_URL}`, requestData)
+  //         .post(process.env.`${TEACHER_API_URL}`, requestData)
   //         .then(response => {
   //           console.log(response.data);
   //           store.Course.Courses.push(response.data);
-  //           router.navigate("/Course");
+  //           router.navigate("/Teacher");
   //         })
   //         .catch(error => {
   //           console.log("It puked", error);
