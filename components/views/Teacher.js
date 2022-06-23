@@ -31,7 +31,7 @@ export default state => html`
         />
       </div>
       <div>
-        <label for="uiux">Teacher:</label>
+        <label for="uiux">Course:</label>
         <input
           type="text"
           name="uiux"
@@ -41,7 +41,7 @@ export default state => html`
         />
       </div>
       <div>
-        <label for="blockchain">Teacher:</label>
+        <label for="blockchain">Subject:</label>
         <input
           type="text"
           name="blockchain"
@@ -51,7 +51,7 @@ export default state => html`
         />
       </div>
       <div>
-        <label for="coding">Teacher:</label>
+        <label for="coding">coding:</label>
         <input
           type="text"
           name="coding"
@@ -61,7 +61,7 @@ export default state => html`
         />
       </div>
       <div>
-        <label for="seo">Teacher:</label>
+        <label for="seo">seo:</label>
         <input type="text" name="seo" id="seo" placeholder="Enter Teacher" />
       </div>
       <!-- <div>

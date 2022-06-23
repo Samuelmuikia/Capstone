@@ -8,8 +8,7 @@ const courseSchema = new mongoose.Schema({
   },
   uiux: {
     type: String,
-    required: true,
-    validate: /^[A-Za-z0-9 ]*$/
+    required: true
   },
   blockchain: {
     type: String,
