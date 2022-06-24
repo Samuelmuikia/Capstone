@@ -16,17 +16,15 @@ export default () => html`
         <h3>I will stay with you until you pass your exam.</h3>
         <p>
         At eliteskill, we’ve seen again and again how the seemingly simple act of creating can be a force for growth, change, and discovery in people’s lives. We want to inspire and multiply the kind of creative exploration that furthers expression, learning and application.
-Skillshare is an online learning community with thousands of classes for creative and curious people, on topics including illustration, design, photography, video, freelancing, and more. On Skillshare, members come together to find inspiration and take the next step in their creative journey.
+Skillshare is an online learning community with thousands of classes for creative and curious people, on topics including illustration, design, photography, video, freelancing, and more. On Eliteskills, members come together to find inspiration and take the next step in their creative journey.  Tomorrow’s skills, today
+    eliteskill mission is to create new possibilities for people and organizations everywhere by connecting them to the knowledge and skills they need to succeed in a changing world.
         </p>
         <a href="#" class="btn">learn more</a>
       </div>
     </section>
 
     <p>
-    Tomorrow’s skills, today
-    eliteskill mission is to create new possibilities for people and organizations everywhere by connecting them to the knowledge and skills they need to succeed in a changing world.
 
-Fueled by the Udemy marketplace, Udemy Business helps companies achieve critical business outcomes and stay competitive by offering fresh, relevant, and personalized on-demand learning. The Udemy Business subscription is a curation of top-rated courses taught by real-world experts from the Udemy marketplace. Our content covers key business and technical topics ranging from development and IT to leadership, marketing, design, stress management, and much more. In addition to a curated content collection, we offer a platform to drive effective learning as well as tools for leaders to host and distribute their own proprietary content.
     </p>
     <!-- <p>
       Quisque at hendrerit libero, eget interdum lectus. Etiam facilisis leo

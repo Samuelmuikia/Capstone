@@ -170,7 +170,7 @@ export default state => html`
             </div>
           </div>
           <div class="content">
-            <h3>john deo</h3>
+            <h3>john doe</h3>
             <span>web designer</span>
           </div>
         </div>
@@ -186,7 +186,7 @@ export default state => html`
             </div>
           </div>
           <div class="content">
-            <h3>john deo</h3>
+            <h3>jane doe</h3>
             <span>web designer</span>
           </div>
         </div>
@@ -202,7 +202,7 @@ export default state => html`
             </div>
           </div>
           <div class="content">
-            <h3>john deo</h3>
+            <h3>john doe</h3>
             <span>web designer</span>
           </div>
         </div>
@@ -218,7 +218,7 @@ export default state => html`
             </div>
           </div>
           <div class="content">
-            <h3>john deo</h3>
+            <h3>john doe</h3>
             <span>web designer</span>
           </div>
         </div>
@@ -234,7 +234,7 @@ export default state => html`
             </div>
           </div>
           <div class="content">
-            <h3>john deo</h3>
+            <h3>jane doe</h3>
             <span>web designer</span>
           </div>
         </div>
@@ -250,7 +250,7 @@ export default state => html`
             </div>
           </div>
           <div class="content">
-            <h3>john deo</h3>
+            <h3>john doe</h3>
             <span>web designer</span>
           </div>
         </div>
@@ -266,7 +266,7 @@ export default state => html`
             </div>
           </div>
           <div class="content">
-            <h3>john deo</h3>
+            <h3>jane doe</h3>
             <span>web designer</span>
           </div>
         </div>
@@ -282,7 +282,7 @@ export default state => html`
             </div>
           </div>
           <div class="content">
-            <h3>john deo</h3>
+            <h3>jane doe</h3>
             <span>web designer</span>
           </div>
         </div>

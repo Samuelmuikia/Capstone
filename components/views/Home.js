@@ -1,4 +1,7 @@
 import html from "html-literal";
+const kelvinToFahrenheit = kelvinTemp =>
+  Math.round((kelvinTemp - 273.15) * (9 / 5) + 32);
+
 import headerImage from "../../images/heading-bg.png";
 import maincourseOneImage from "../../images/main-course-1.png";
 import maincourseTwoImage from "../../images/main-course-2.png";
@@ -124,10 +127,11 @@ header section ends -->
 
 <!-- custom js file link  -->
 
+
     </section>
     <h3>
-      Weather in ${state.weather.city} ${state.weather.temp}F, feels like
-      ${state.weather.feelsLike}F
+    Weather in ${state.weather.city} ${kelvinToFahrenheit(state.weather.temp)}F,
+    feels like ${kelvinToFahrenheit(state.weather.feelsLike)}F
     </h3>
   </section>
 `;
